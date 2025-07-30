@@ -21,35 +21,23 @@ body{
 }
 
 .wrapper{
-    min-height: 100%;
-    overflow: hidden;
-
-    display: flex;
-    flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .conteiner{
-    max-width: 1180px;
-    margin: 0px auto;
+   max-width: 1180px;
+   margin: 0px auto
 }
-
-
 .content{
-    flex:1 1 auto;
-}
-.hi{
-    background-color: #445162;
-}
-.hi_row{
-    display: flex;
-    justify-content: space-between;
+    
 }
 .hi_body{
-    color: #ffffffff;
+    color: #445162;
 } 
 .hi_titie{
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
-    font-size: 60px;
-    margin: 0px 0px 38px 0px;
+   
 }
 .hi_list{}
 .hi_list li{
